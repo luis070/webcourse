@@ -1,0 +1,39 @@
+.{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #f2f2f2;
+  font-family: Arial;
+}
+
+.cajapadre{
+  background: #2e294a;
+  width: 700px;
+  overflow: hidden;
+  /* se ajusta por el contenido de esta, para evitar
+  error se puno al contenedor padre */
+}
+
+.caja{
+  width: 200px;
+  color: #fff;
+  font-size: 30px;
+  height: 200px;
+  background: #0c6ba8;
+  margin: 20px;
+
+}
+
+.uno{
+  float: left;
+}
+
+.dos{
+  float: right;
+}
+
+.limpiar{
+  clear: both;
+}

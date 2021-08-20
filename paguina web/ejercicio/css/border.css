@@ -1,0 +1,49 @@
+div {
+  background: blue;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.caja1{
+  border:7px solid #000;
+  border-radius: 0px 10px 20px 50px;
+}
+.caja2{
+  border: 7px dotted #000;
+}
+.caja3{
+  border: 7px dashed #000;
+}
+.caja4{
+  /* border: 7px double #000; */
+  /* border: 7px groove #000; */
+  /* border: 7px ridge #000;  */
+  border: 7px outset #000;
+  border-radius: 20px;
+}
+
+a{
+  background: #4357ad;
+  color: white;
+  padding: 20px 30px;
+  display: inline-block;
+  font-size: 50px;
+}
+
+a:hover{
+  background: #009adc;
+  opacity: .5;
+  padding: 25px 35px;
+}
+a:active{
+  background: black;
+}
+div p{
+  width: 800px;
+}
+div p:hover {
+  background: black;
+  color:white;
+}

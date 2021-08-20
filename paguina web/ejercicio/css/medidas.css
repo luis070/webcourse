@@ -1,0 +1,44 @@
+body{
+  font-size: 20px;
+}
+
+
+p{
+  font-size: 1em;
+}
+/* el em es para asosiar el tamaño del padre o la divisin anterior
+tambien  aplica con imagenes y etc*/
+
+.contenedor_padre{
+  font-size: 25px;
+}
+
+.hijo{
+  width: 10em;
+  height: 10em;
+  /* el alot no se limita por calidad de la pagina es necesario
+  dejarlo como automatico como ya viene por defaourt */
+  background: black;
+  color: #fff;
+}
+
+/* el em es toma el tamaño de la dibvision anterior
+
+el rem toma el tamaño del body directmante  */
+
+
+.caja{
+  background: red;
+  width: 10rem;
+  height: 10rem;
+  margin: 10px;
+  /* el margen lo puedes poner por izquierda arriba abajo y derecha
+   en este caso por solo poner uno lo toma
+  como x y la misma o puedes poner margin-top margin left , etc */
+}
+
+*{
+  padding: 0;
+  margin: 0;
+
+}

@@ -1,0 +1,25 @@
+body{
+  font-family: "Times New Roman" ,ariel, sans-serif, melvetecica;
+  /* poniendo varios tipos de tipografia pasa a la siguiente si no encuentra
+  a la primera */
+  text-transform:capitalize;
+}
+/* el text transdorm modifica el texto y capitalize es para poner en
+mayusculas  la primera palabra de cada palabra*/
+
+h1{
+  font-family:"Times New Roman", ariel;
+  font-size:20px;
+  font-style: italic;
+}
+/* font-style:normal; */
+h2{
+  font-weight:normal;
+
+}
+h3{
+  color:#4281ed;
+}
+h4{
+  text-align:center;
+}

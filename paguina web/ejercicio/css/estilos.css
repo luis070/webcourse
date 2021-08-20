@@ -1,0 +1,26 @@
+h1 {
+  color:blue;
+}
+p{
+  color:red;
+}
+ div p{
+   font-size: 20px;
+   color: black;
+ }
+
+
+div article p{
+
+  font-size: 10px;
+  color: blue;
+}
+
+p a {
+  color: red;
+}
+
+
+.grande{
+  font-size: 28px
+}

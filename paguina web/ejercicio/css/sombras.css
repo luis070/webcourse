@@ -1,0 +1,14 @@
+body{
+
+}
+
+.texto{
+text-shadow: 2px 2px 10px #000;
+}
+
+.caja{
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  box-shadow: 2px 2px 30px #000;
+}
